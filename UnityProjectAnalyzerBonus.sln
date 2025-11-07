@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityProjectAnalyzerBonus", "UnityProjectAnalyzerBonus.csproj", "{A9E2C47F-8726-410F-8ED9-D26D0D245F41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E2C47F-8726-410F-8ED9-D26D0D245F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E2C47F-8726-410F-8ED9-D26D0D245F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E2C47F-8726-410F-8ED9-D26D0D245F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E2C47F-8726-410F-8ED9-D26D0D245F41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07A24C8C-AAC1-41F7-9223-DD04744121FB}
+	EndGlobalSection
+EndGlobal
