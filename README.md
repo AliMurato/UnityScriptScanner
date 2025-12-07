@@ -97,7 +97,9 @@ For YAML parsing, you can also use existing libraries such as
 Option A: Using dotnet CLI
 
 From the project root:
+
 ```dotnet restore```
+
 ```dotnet build```
 
 After a successful build, the executable is located at:
