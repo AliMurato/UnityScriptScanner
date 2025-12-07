@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnityProjectAnalyzerBonus
+namespace UnityScriptScanner
 {
     // Writing *.unity.dump files
     internal static class SceneDumper

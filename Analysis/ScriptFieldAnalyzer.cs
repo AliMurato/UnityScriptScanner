@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnityProjectAnalyzerBonus
+namespace UnityScriptScanner
 {
     // C# code analysis using Roslyn: find serializable fields in MonoBehaviour classes
     internal static class ScriptFieldAnalyzer

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace UnityProjectAnalyzerBonus
+namespace UnityScriptScanner
 {
     // Build a scene GameObject hierarchy from Unity YAML
     internal static class SceneHierarchyBuilder

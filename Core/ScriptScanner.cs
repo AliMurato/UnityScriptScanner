@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static UnityProjectAnalyzerBonus.Program;
+using static UnityScriptScanner.Program;
 
-namespace UnityProjectAnalyzerBonus
+namespace UnityScriptScanner
 {
     // Scan all .cs files and their GUIDs
     internal static class ScriptScanner

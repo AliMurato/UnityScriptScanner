@@ -4,7 +4,7 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace UnityProjectAnalyzerBonus
+namespace UnityScriptScanner
 {
     internal class Program
     {
@@ -16,7 +16,7 @@ namespace UnityProjectAnalyzerBonus
         {
             if (args.Length != 2)
             {
-                Console.Error.WriteLine("Usage: tool.exe <unity_project_path> <output_folder_path>");
+                Console.Error.WriteLine("Usage: UnityScriptScanner.exe <unity_project_path> <output_folder_path>");
                 return 1; // error: invalid arguments
             }
 

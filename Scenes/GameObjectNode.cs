@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnityProjectAnalyzerBonus
+namespace UnityScriptScanner
 {
     // Node of the GameObject hierarchy (just name + children)
     internal class GameObjectNode

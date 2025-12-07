@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace UnityProjectAnalyzerBonus
+namespace UnityScriptScanner
 {
     // YAML scene analysis: find which script GUIDs are actually used
     //          (via m_Script and via live serialized fields)

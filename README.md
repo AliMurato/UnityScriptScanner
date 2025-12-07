@@ -1,4 +1,4 @@
-﻿# Unity Project Analyzer (with bonus 1)
+﻿# Unity Script Scanner
 
 Console tool that analyzes a **Unity project directory** and produces:
 
@@ -49,7 +49,7 @@ No Unity API or Unity Editor is required.
 ## 2. Project Structure
 
 ```
-UnityProjectAnalyzerBonus/
+UnityScriptScanner/
 │
 ├── Analysis/
 │   ├── ScriptFieldAnalyzer.cs   # Roslyn: find serializable fields in MonoBehaviour classes
@@ -66,7 +66,7 @@ UnityProjectAnalyzerBonus/
 │   └── SceneHierarchyBuilder.cs # Parses Unity YAML to build GameObject hierarchies
 │
 ├── Program.cs                   # Entry point: orchestrates scanning, analysis and dumping
-├── UnityProjectAnalyzerBonus.csproj
+├── UnityScriptScanner.csproj
 ├── .gitignore
 └── README.md
 ```
@@ -79,7 +79,7 @@ UnityProjectAnalyzerBonus/
 
 ### NuGet dependencies
 
-All NuGet dependencies are described in ```UnityProjectAnalyzerBonus.csproj:```
+All NuGet dependencies are described in ```UnityScriptScanner.csproj:```
 
 ```Microsoft.CodeAnalysis```
 
@@ -101,11 +101,11 @@ From the project root:
 ```dotnet build```
 
 After a successful build, the executable is located at:
-```bin/Debug/net8.0/UnityProjectAnalyzerBonus.exe```
+```bin/Debug/net8.0/UnityScriptScanner.exe```
 (or bin/Release/net8.0 if built in Release configuration).
 
 Option B: Using Visual Studio
-1. Open UnityProjectAnalyzerBonus.sln.
+1. Open UnityScriptScanner.sln.
 2. Select configuration Debug or Release.
 3. Build → Build Solution.
 4. The output .exe will be placed in bin/<Config>/net8.0/.
@@ -113,7 +113,7 @@ Option B: Using Visual Studio
 ## 5. Usage
 
 The tool is a console application and expects two arguments:
-```UnityProjectAnalyzerBonus.exe <unity_project_path> <output_folder_path>```
+```UnityScriptScanner.exe <unity_project_path> <output_folder_path>```
 
 - <unity_project_path> – path to the root of the Unity project
 (directory that contains Assets/, ProjectSettings/, etc.)
@@ -121,7 +121,7 @@ The tool is a console application and expects two arguments:
 (it will be created if it does not exist)
 
 Example (Windows)
-```UnityProjectAnalyzerBonus.exe "C:\Projects\TestCase01" "C:\Projects\TestCase01\Output"```
+```./UnityScriptScanner.exe "C:\Test\Input" "C:\Test\Output"```
 
 After running, the output folder will contain:
 - UnusedScripts.csv
