@@ -115,6 +115,7 @@ Option B: Using Visual Studio
 ## 5. Usage
 
 The tool is a console application and expects two arguments:
+
 ```UnityScriptScanner.exe <unity_project_path> <output_folder_path>```
 
 - <unity_project_path> – path to the root of the Unity project
@@ -122,7 +123,8 @@ The tool is a console application and expects two arguments:
 - <output_folder_path> – folder where all output files will be written
 (it will be created if it does not exist)
 
-Example (Windows)
+Example (Windows):
+
 ```./UnityScriptScanner.exe "C:\Test\Input" "C:\Test\Output"```
 
 After running, the output folder will contain:
