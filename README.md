@@ -34,7 +34,7 @@ No Unity API or Unity Editor is required.
      --Child2
      ```
 
-3. **Unused script detection (Bonus #1)**
+3. **Unused script detection**
    - Uses **Roslyn** (`Microsoft.CodeAnalysis`) to parse all C# files
    - For each script that derives from `MonoBehaviour`, collects names of **serializable fields**:
      - `public` fields (non `static`/`const`)
